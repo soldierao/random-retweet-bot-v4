@@ -3,10 +3,14 @@
 	height:100vh;	
 	background-color:lightblue;
 	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
 }
 
 .white-box{
-	width:30vw;
-	height:30vh;
+	width:500px;
+	height:500px;
 	background-color:white;
+	border-radius:10px;
 }

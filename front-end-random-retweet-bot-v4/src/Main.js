@@ -1,16 +1,26 @@
 import './Main.css';
 
 function WhiteBox(){
-	//<div className='white-box'>
-		
-	//</div>	
+	return(
+	<div className='white-box'>
+	</div>	
+	)
+}
+
+function Footer(){
+	return(
+		<div className='footer'>
+		</div>
+	)
 }
 
 
 export default function Main() {
   return (
 	<div className='main'>
-    	<WhiteBox/>	  
+	  	<BlankHeader/>
+	    	<WhiteBox/>
+	  	<Footer/>
         </div> 
 );
 }
