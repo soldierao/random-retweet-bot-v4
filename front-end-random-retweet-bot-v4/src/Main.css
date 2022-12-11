@@ -1,0 +1,12 @@
+.main{
+	width:100vw;
+	height:100vh;	
+	background-color:lightblue;
+	display:flex;
+}
+
+.white-box{
+	width:30vw;
+	height:30vh;
+	background-color:white;
+}

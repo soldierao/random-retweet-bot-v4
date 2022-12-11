@@ -1,18 +1,17 @@
-import './App.css';
+import './Main.css';
 
 function WhiteBox(){
-	<div className='white-box'>
+	//<div className='white-box'>
 		
-	</div>	
+	//</div>	
 }
 
 
 export default function Main() {
   return (
-	<>
+	<div className='main'>
     	<WhiteBox/>	  
-        </> 
+        </div> 
 );
 }
 
-export default App;
