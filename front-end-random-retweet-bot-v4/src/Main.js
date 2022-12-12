@@ -7,6 +7,12 @@ function WhiteBox(){
 	)
 }
 
+function BlankHeader(){
+	return(
+		<></>	
+	)
+}
+
 function Footer(){
 	return(
 		<div className='footer'>
