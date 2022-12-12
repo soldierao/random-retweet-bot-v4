@@ -7,15 +7,10 @@ function WhiteBox(){
 	)
 }
 
-function BlankHeader(){
-	return(
-		<></>	
-	)
-}
-
 function Footer(){
 	return(
 		<div className='footer'>
+			<h1>by J.D. Diamari 🕊️</h1>
 		</div>
 	)
 }
@@ -24,10 +19,10 @@ function Footer(){
 export default function Main() {
   return (
 	<div className='main'>
-	  	<BlankHeader/>
-	    	<WhiteBox/>
+		<div></div>
+		<WhiteBox/>
 	  	<Footer/>
-        </div> 
+    </div> 
 );
 }
 
